@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    group:
+      "default" : domain, web
+      "dev" : domain-dev, web-dev
+      "prod" : domain-prod, web-prod

@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://10.88.0.48:5432/infobank-itechex
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
